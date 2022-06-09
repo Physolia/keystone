@@ -14,6 +14,7 @@ import {
   float,
 } from '@keystone-6/core/fields';
 import { document } from '@keystone-6/fields-document';
+import { componentBlocks } from '../component-blocks';
 import { dbConfig, localStorageConfig, trackingFields } from '../utils';
 
 export const lists = {
@@ -99,6 +100,8 @@ export const lists = {
         ],
         links: true,
         dividers: true,
+        componentBlocks,
+        ui: { views: require.resolve('../component-blocks.tsx') },
       }),
     },
   }),
