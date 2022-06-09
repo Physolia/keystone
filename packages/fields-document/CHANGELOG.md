@@ -1,5 +1,11 @@
 # @keystone-6/fields-document
 
+## 3.0.1
+
+### Patch Changes
+
+- [#7604](https://github.com/keystonejs/keystone/pull/7604) [`d591e31c6`](https://github.com/keystonejs/keystone/commit/d591e31c61297c88ca5b0c24d4b855c3b12324b2) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Fixed layout and component block floating toolbars being shown behind other elements
+
 ## 3.0.0
 
 ### Major Changes

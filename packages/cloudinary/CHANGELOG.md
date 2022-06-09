@@ -1,5 +1,11 @@
 # @keystone-6/cloudinary
 
+## 3.0.1
+
+### Patch Changes
+
+- [#7607](https://github.com/keystonejs/keystone/pull/7607) [`52e547748`](https://github.com/keystonejs/keystone/commit/52e547748fcb9a7600a5500d8aabc27693542181) Thanks [@mmachatschek](https://github.com/mmachatschek)! - Added an export for the Cloudinary image GraphQL output type for developer usage e.g. in virtual fields.
+
 ## 3.0.0
 
 ### Major Changes
